@@ -6,34 +6,180 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quattrocento:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ruda:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>My Resturent</title>
 </head>
 <body>
     <!-- ********************Heading and Navbar Starts here**************************** -->
-    <!-- ********************************************************************** -->
     <header class="header">
         <div class="logo" id="nav-padding">
             <a href="index.html">Pizza Resturent</a>
         </div>
         <div class="nav" id="nav-padding">
             <ul class="navbar">
-                <li class="navlinks"><a href="">About us</a></li>
-                <li class="navlinks"> <a href="">Menu</a></li>
+                <li class="navlinks"><a href="#section-2">About us</a></li>
+                <li class="navlinks"> <a href="#menu">Menu</a></li>
                 <li class="navlinks"><a href="">Blogs</a></li>
                 <li class="navlinks"><a href="">Testimony</a></li>
-                <li class="navlinks"><a href="">Find us</a></li>
+                <li class="navlinks"><a href="#find-us">Find us</a></li>
                 <li class="navlinks"><a href="">Our Team</a></li>
             </ul>
         </div>
         <div class="social-icons" id="nav-padding">
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-whatsapp"></i>
+            <a href=""><i class="fa-brands fa-instagram"></i></a> 
+            <a href=""> <i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-whatsapp"></i></a>
         </div>
     </header>
-    <!-- ************************************************************************
-    **************************Header Part Ends********************************** -->
+
+    <!--**************************Pizza Banner Part********************************** -->
+    <div class="banner">
+        <div class="container">
+            <div class="title">
+                <h1>Craving for a chessy pizza?</h1>
+            </div>
+            <div class="hrline"></div>
+            <div class="para">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac placerat dui. Vestibulum ut felis et lorem porta congue vitae nec turpis. Aliquam quis leo at nunc tempor faucibus et ac massa.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- *********************ABout us section****************************** -->
+    <section id="section-2" >
+        <div class="about">
+            <div><h1>About us</h1></div>
+            <div class="hrline" id="abtus-hr"></div>
+        </div>
+        
+        <div class="main-container" id="uni-padding">
+            <div class="left">
+                <div class="hrline" id="main-hr"></div>
+                <div class="para"><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p></div>
+            </div>
+            <div class="right">
+                <img src="/imgs/dough.png" alt="Dough">
+            </div>
+        </div>
+    </section>
+    
+
+
+
+    <!-- ************************menu part ************************* -->
+    <section>
+    <div class="menu" id="uni-padding">
+        <div id="menu"><h1>Menu</h1></div>
+        <div class="hrline" id="menu-hr"></div>
+        <div class="decs" id="uni-padding" >
+            <p>Explore the wide range of pizza baked in fresh dough and vegetables. Our pizza will tempt all your excitement and senses. Made with a delicate balance of everything cheesy and spicy, you will get to savour the best pizza in town.</p>
+        </div>
+    </div>
+    </section>
+<!-- ********************List Items of Menu**************************** -->
+    <div class="item-List-Container" id="uni-padding">
+        <div class="items-left">
+            <!-- ****************All 3 left items****************** -->
+            <!-- **********1st***** -->
+            <div class="list-holder">
+                <div class="img">
+                    <img src="/imgs/pizza-1.png" alt="">
+                </div>
+                <div class="item-name-desc">
+                    <div> <h1>LOREM IPSUM</h1></div>
+                    <div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac placerat dui.</p></div> 
+                </div>
+            </div>
+            <!-- **********2nd***** -->
+            <div class="list-holder">
+                <div class="img">
+                    <img src="/imgs/pizza-2.png" alt="">
+                </div>
+                <div class="item-name-desc">
+                    <div> <h1>LOREM IPSUM</h1></div>
+                    <div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac placerat dui.</p></div> 
+                </div>
+            </div>
+            <!-- **********3rd***** -->
+            <div class="list-holder">
+                <div class="img">
+                    <img src="/imgs/pizza-3.png" alt="">
+                </div>
+                <div class="item-name-desc">
+                    <div> <h1>LOREM IPSUM</h1></div>
+                    <div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac placerat dui.</p></div> 
+                </div>
+            </div>
+        </div>
+        <!-- *****************Right 3 items************************ -->
+        <div class="items-right">
+            <div class="list-holder">
+                <div class="img">
+                    <img src="/imgs/pizza-4.png" alt="">
+                </div>
+                <div class="item-name-desc">
+                    <div> <h1>LOREM IPSUM</h1></div>
+                    <div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac placerat dui.</p></div> 
+                </div>
+            </div>
+
+            <div class="list-holder">
+                <div class="img">
+                    <img src="/imgs/pizza-5.png" alt="">
+                </div>
+                <div class="item-name-desc">
+                    <div> <h1>LOREM IPSUM</h1></div>
+                    <div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac placerat dui.</p></div> 
+                </div>
+            </div>
+
+            <div class="list-holder">
+                <div class="img">
+                    <img src="/imgs/shake-5.png" alt="">
+                </div>
+                <div class="item-name-desc">
+                    <div> <h1>LOREM IPSUM</h1></div>
+                    <div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac placerat dui.</p></div> 
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+    </div>
+
+    <footer id="find-us">
+        <div class="foot-container">
+            <div  id="footer-padding">
+                <img src="/imgs/chef-logo.png" alt="">
+            </div>
+            <div class="right"  id="footer-padding">
+                <div class="mail">
+                    <i class="fa-regular fa-envelope"></i>
+                    <a href="">mailid@gmail.com</a>
+                </div>
+                <div class="phone">
+                    <i class="fa-solid fa-phone"></i>
+                    <div class="number">
+                        <a href="">797974****</a>
+                        <a href="">7754688****</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
 </body>
 </html>
